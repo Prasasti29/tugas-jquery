@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <!--Bootstrap CSS & JS-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+   
+    
+ 
+    <!-- fungsi font-size-acceessibility -->
+    <script type="text/javascript">
+     $('#example').FontSize();
+     $('#example').FontSize({
+    increaseTimes: 5,
+    reduceTimes: 5
+    });
+
+    $('#example').FontSize({
+    step: 3
+    });
+
+    $('#example').FontSize({
+  increaseBtn: '.zoomin',
+  reduceBtn: '.zoomout'
+    });
+    </script>
+
+
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">PRASASTI INDAH</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            </nav>
+    
+        <!-- foto di slide -->
+        <img src="images/1.jpg" class="img-fluid" alt="Responsive image">
+
+        <button class="zoomin">Bigger</button>
+        <button class="zoomout">Smaller</button>
+        <button><a href="index.html">Back</a></button>
+
+        <article id="example">
+            <h4>About Me</h4>
+            nama lengkap saya Prasasti Indah Rahayu, lahir di Jakarta, 29 mei 1999, saat ini berusia 20 tahun.
+            sekarang saya tinggal di gading serpong, sekarang saya sedang melanjutka pendidikan di Universitas Multimedia Nusantara dengan mengambil jurusan Sistem Informasi. Saya beragama islam, dan merupakan warga negara indonesia. ipk terakhir yang saya dapatkan adalah 3.23
+          </article><br>
+
+          <!-- education dan skill -->
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">My Education List</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>2004-2005</td>
+                <td>Tk Cut Nyak Dien Tangerang</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>2005-2011</td>
+                <td>SD Negeri Mekarsari 2 Depok</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>2011-2014</td>
+                <td>SMPN 7 Depok</td>
+              </tr>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>2014-2017</td>
+              <td>SMAS PKP Jakarta Islamic School Jakarta Timur</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>2018-2022</td>
+                <td>Universitas Multimedia Nusantara</td>
+              </tr>
+            </tbody>
+          </table>
+          
+
+         <!-- Footer -->
+		<div class="footer bg-light">
+            <h5>Copyright asti 2020</h5>
+		</div>
+    
+       
+
+    
+    <!-- font-size-acceessibility -->
+    <script src="font-size-accessibility/dist/fontsize.js"></script>
+   
+</body>
+</html>
